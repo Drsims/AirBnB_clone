@@ -1,9 +1,11 @@
- the Place class."""
+#!/usr/bin/python3
+"""Defines the Place class."""
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
     """Represent a place.
+
     Attributes:
         city_id (str): The City id.
         user_id (str): The User id.
@@ -29,3 +31,4 @@ class Place(BaseModel):
     latitude = 0.0
     longitude = 0.0
     amenity_ids = []
+
